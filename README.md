@@ -1,53 +1,24 @@
 # Telecom Churn Prediction
+
 ## Overview
-This project predicts customer churn in a telecom company using machine learning techniques. By identifying customers likely to leave the service, businesses can take proactive actions to improve retention and customer satisfaction.
+This project aims to predict customer churn in the telecom industry using machine learning techniques. By analyzing customer behavior, we aim to identify factors contributing to churn and provide actionable insights.
+
 ## Features
-Exploratory Data Analysis (EDA): Analyze trends, correlations, and customer behavior.
-Data Preprocessing: Handle missing data, categorical encoding, and feature scaling.
-Machine Learning Models: Train and evaluate models to predict churn.
-Business Insights: Provide actionable insights to reduce churn rates.
+- **Data Cleaning**: Handling missing values and outliers.
+- **Feature Engineering**: Encoding categorical features, VIF, Transformation and Scaling for better model performance.
+- **Modeling**: Implemented Logistic Regression, Naive Bayes, SVM, KNN, Decision Tree, Random Forest, Gradient Boosting, XGBoost and LightGBM and along with Hyperparameter tuning for each algorithms.
 
-## Technologies Used
-* Programming Languages: Python
-* Libraries:
-    - Pandas
-    - NumPy
-    - Matplotlib
-    - Scikit-learn
-    - Seaborn
-    - Klib
-    - SHAP
-* Tools: Jupyter Notebook
+## Tools Used
+- Python (Data Analysis libraries, Scikit-learn, Scipy, XGBoost, LightGBM & SHAP)
+- Jupyter Notebook
 
-## Project Structure
+## Usage
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run `Telecom_Churn_Prediction.ipynb` to explore the analysis.
 
-Telecom-Churn-Prediction/
-│
+## Results
+Achieved an accuracy of 81% & Recall of 84% with the Random Forest model.
 
-├── Source_code/                 # Python scripts and notebooks  
-├── data/                        # Dataset files  
-├── Telecom-Churn-Presentation.pptx  # Project presentation  
-├── libraries.txt                # List of required libraries  
-├── README.md                    # Project documentation  
-└── .gitignore                   # Git ignore file  
-
-## How to Run the Project
-
-1.Clone the Repository:
-
-git clone https://github.com/Saravanan-93/Telecom-Churn-Prediction.git
-cd Telecom-Churn-Prediction
-
-2. Install Dependencies:
-
-pip install -r libraries.txt
-
-3. Run the Jupyter Notebook:
-
-jupyter notebook
-
-4. Execute the Code:
-
-Open the notebook in Source_code/ folder.
-Run all cells step-by-step.
+---
 
